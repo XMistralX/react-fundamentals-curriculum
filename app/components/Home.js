@@ -1,5 +1,5 @@
 var React = require('react');
-var GetCity = require('./GetCity');
+var GetCityContainer = require('../containers/GetCityContainer');
 
 var styles = {
   container: {
@@ -24,7 +24,7 @@ var Home = React.createClass({
         return(
             <div style = {styles.container}>
                 <h1 style = {styles.header}>Enter City and State</h1>
-                <GetCity />
+                <GetCityContainer />
             </div>
         );
     }
