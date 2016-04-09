@@ -1,0 +1,9 @@
+html, body, div {
+    /* Height and width fallback for older browsers. */
+    height: 100%;
+    width: 100%;
+
+
+    /* Remove any browser-default margins. */
+    margin: 0;
+}

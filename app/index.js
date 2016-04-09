@@ -1,18 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var routes = require('./config/routes.js');
 
-
-var CommentList = React.createClass({
-  render: function() {
-    return (
-      <div className="commentList">
-        Hello, world! I am a CommentList.
-      </div>
-    );
-  }
-});
 
 ReactDOM.render(
-    React.createElement(CommentList, null),
+    routes,
     document.getElementById('app')
 );
